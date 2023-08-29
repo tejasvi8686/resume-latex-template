@@ -1,0 +1,55 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%====================
+%
+% Files:        resume.tex: Main file
+%               _header.tex: header code
+%               TLCresume.sty: style file containing formatting details
+%               section/objective: https://www.indeed.com/career-advice/resumes-cover-letters/resume-objective-examples
+%               section/skills: table of skills
+%               section/experience: projects or roles
+%               section/education: schools and stuff
+%               section/activities: optional, could comment out in resume.tex.
+%
+%====================
+
+\usepackage{TLCresume}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\def\name{Tejasvi Raj} % Name Here
+\def\phone{(+91) 6387247869}
+\def\city{Ghazipur, Uttar Pradesh, IN}
+\def\email{tejasviraj8686@gmail.com}
+\def\LinkedIn{tejasviraj} % linkedin.com/in/______
+\def\github{tejasvi8686} % github username
+
+\input{_header}
+\begin{document}
+% \input{sections/objective}
+
+\section{objective}
+\input{sections/objective}
+
+\section{Skills}
+\input{sections/skills}
+
+\section{Education}
+\input{sections/education}
+
+\section{Projects}
+\input{sections/projects}
+
+
+
+
+% make a newpage wherever it is a clean break
+% \newpage
+
+\section{Certificates}
+\input{sections/Certificates}
+
+
+\end{document}
